@@ -19,11 +19,11 @@ const ContactForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (isValid) {
-      console.log(`Name: ${name}`);
-      console.log(`Birthday: ${birthdate}`);
-      console.log(`City: ${city}`);
-      console.log(`Email: ${email}`);
-      console.log(`Phone: ${phone}`);
+      console.log(`${t.sidebar.contact.content.name}: ${name}`);
+      console.log(`${t.sidebar.contact.content.birthdate}: ${birthdate}`);
+      console.log(`${t.sidebar.contact.content.city}: ${city}`);
+      console.log(`${t.sidebar.contact.content.email}: ${email}`);
+      console.log(`${t.sidebar.contact.content.phone}: ${phone}`);
       setShowPopup(false);
       setShowError(false);
     } else {
