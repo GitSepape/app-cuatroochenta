@@ -1,0 +1,48 @@
+{
+  "header": {
+    "language": {
+      "text": "Select Language"
+    },
+    "title": {
+      "text": "Thermometer"
+    }
+  },
+  "sidebar": {
+    "search": {
+      "text": "Search",
+      "select": "Select"
+    },
+    "button": {
+      "valencia": "Valencia",
+      "madrid": "Madrid",
+      "barcelona": "Barcelona"
+    },
+    "contact": {
+      "text": "Contact me!",
+      "content": {
+        "name": "Name",
+        "birthdate": "Date of Birth",
+        "city": "City",
+        "email": "Email",
+        "phone": "Phone",
+        "send": "Send",
+        "error": "Por favor, rellena todos los campos."
+      }
+    }
+  },
+  "card": {
+    "description": "Time",
+    "max": "Maximum temperature",
+    "min": "Minimum temperature",
+    "feels": "Thermal sensation",
+    "next": "Upcoming Temperatures",
+    "text": "Select your favorite city or search for the best option."
+  },
+  "footer": {
+    "text": "© 2024 Sepape. All rights reserved.",
+    "twitter": "Twitter",
+    "github": "GitHub",
+    "web": "Personal Website"
+  },
+  "url": "en"
+}

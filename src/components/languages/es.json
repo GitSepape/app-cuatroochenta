@@ -1,0 +1,48 @@
+{
+  "header": {
+    "language": {
+      "text": "Selecciona idioma"
+    },
+    "title" : {
+      "text": "Termometro"
+    }
+  },
+  "sidebar": {
+    "search": {
+      "text": "Buscador",
+      "select": "Selecciona"
+    },
+    "button": {
+      "valencia": "Valencia",
+      "madrid": "Madrid",
+      "barcelona": "Barcelona"
+    },
+    "contact": {
+      "text": "¡Contáctame!",
+      "content": {
+        "name": "Nombre",
+        "birthdate": "Fecha de nacimiento",
+        "city": "Ciudad",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "send": "Enviar",
+        "error": "Por favor, rellena todos los campos."
+      }
+    }
+  },
+  "card": {
+    "description": "Tiempo",
+    "max": "Temperatura máxima",
+    "min": "Temperatura mínima",
+    "feels": "Sensación térmica",
+    "next": "Próximas temperaturas",
+    "text": "Selecciona tu ciudad favorita o busca la mejor opción."
+  },
+  "footer": {
+    "text": "© 2024 Sepape. Todos los derechos reservados.",
+    "twitter": "Twitter",
+    "github": "GitHub",
+    "web": "Web personal"
+  },
+  "url": "es"
+}
