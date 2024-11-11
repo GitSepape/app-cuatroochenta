@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Cuatroochenta App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación desarrollada con **React**, **TypeScript**, **Redux Toolkit** y **Styled Components**.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+Esta aplicación permite consultar el pronóstico del clima. Está desarrollada con **React** y **TypeScript** para garantizar un código robusto y escalable. El manejo del estado se realiza a través de **Redux Toolkit**, lo que facilita la gestión del estado global, especialmente en proyectos pequeños y medianos. **Styled Components** se utiliza para aplicar estilos a los componentes de manera modular.
 
-### `npm start`
+He implementado un **buscador de ciudades** que permite al usuario buscar el clima de cualquier ciudad, además de las tres opciones predeterminadas que siempre están disponibles. También he añadido un **footer** sencillo con enlaces a mis redes sociales, para que los usuarios puedan ponerse en contacto conmigo más fácilmente.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+El desarrollo de esta app ha sido una experiencia muy divertida, especialmente al crear una aplicación desde cero centrada en las predicciones del clima.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologías utilizadas
 
-### `npm test`
+- **React**: Librería de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que permite el tipado estático.
+- **Redux Toolkit**: Herramienta moderna para la gestión de estado global en aplicaciones React.
+- **Styled Components**: Librería para aplicar estilos en React mediante componentes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requisitos previos
 
-### `npm run build`
+Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js**: [Instalar Node.js](https://nodejs.org/)
+- **npm o yarn**: Gestores de paquetes (npm viene con Node.js, pero puedes usar yarn si prefieres).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sigue estos pasos para instalar y ejecutar la aplicación localmente:
 
-### `npm run eject`
+1. Clona el repositorio:
+  git clone https://github.com/GitSepape/cuatroochenta-app.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navega a la carpeta del proyecto:
+  cd cuatroochenta-app
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instala las dependecias:
+  npm install
+  Y si prefieres usar yarn:
+  yarn install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Inicializa la aplicación:
+  npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Abre la aplicación en tu navegador.
